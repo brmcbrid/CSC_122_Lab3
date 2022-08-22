@@ -1,6 +1,6 @@
 # CSC 122
 # Tests for Lab3
-# Color Mixer programm
+# Color Mixer program
 
 import os.path
 import sys
@@ -59,6 +59,6 @@ def test_Lab3():
     assert output == [
             "Enter the first primary color to mix (red, green, or blue): ",
             "Enter the second primary color to mix (red, green, or blue): ",
-            "The seconday color you mixed is invalid!",
+            "The secondary color you mixed is invalid.",
             "Bye!"
         ]
